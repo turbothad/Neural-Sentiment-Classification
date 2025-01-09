@@ -24,15 +24,14 @@ This project implements a Deep Averaging Network (DAN) for sentiment classificat
 
 ## Requirements
 
-\`\`\`
-numpy
-nltk
-spacy
-torch
-scipy
-matplotlib
-torchvision
-\`\`\`
+- numpy
+- nltk
+- spacy
+- torch
+- scipy
+- matplotlib
+- torchvision
+
 
 ## Setup
 
@@ -45,18 +44,13 @@ torchvision
 ## Usage
 
 ### Optimization Experiment
-\`\`\`bash
 python optimization.py
-\`\`\`
 
-### Sentiment Classification
-\`\`\`bash
 # Standard classification
 python neural_sentiment_classifier.py
 
 # Classification with typo handling
 python neural_sentiment_classifier.py --use_typo_setting
-\`\`\`
 
 ## Performance
 
